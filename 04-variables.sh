@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PERSION1=Trump
-PERSION2=Musk
+PERSION1=Modi
+PERSION2=Potin
 
 echo "$PERSION1:: Hey $PERSION2, How are you?"
 echo "$PERSION2:: Hello $PERSION1, I am fine. How are you doing"
