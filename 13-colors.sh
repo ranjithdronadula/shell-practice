@@ -8,12 +8,12 @@ Y="/e[33m"
 N="/e[34m
 
 if [ $USERID -ne 0 ]
-then 
-   echo -e "ERROR::   please run this script ...Root acess"
-   exit 1    #by using 1 exit the script because of error 1 define failure
+then
+    echo -e "$R ERROR:: Please run this script with root access $N"
+    exit 1 #give other than 0 upto 127
 else
-   echo "This script is running with root access"
-f1   
+    echo "You are running with root access"
+fi
 
 
 
