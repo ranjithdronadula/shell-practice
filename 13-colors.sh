@@ -13,3 +13,13 @@ then
 else
     echo "You are running with root access"
 fi
+
+dnf list installed mysql
+if [ $? -ne 0 ]
+then
+    echo "MySQL is not installed... going to install it"
+    dnf install mysql -y
+    VALIDATE $? "MySQL"
+else
+    echo -e "Nothing to do MySQL... $Y already installed $N"
+fi
