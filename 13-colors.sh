@@ -2,14 +2,9 @@
 
 USERID="$(id -u)"
 
-R="/e[31m"
-G="/e[32m"
-Y="/e[33m"
-N="/e[34m
-
 if [ $USERID -ne 0 ]
 then 
-    echo -e  "$R ERROR:: plese run this script root acces $N"
+    echo -e  " ERROR:: plese run this script root acces "
     exit 1
 else
     echo "you are running with root acces"
