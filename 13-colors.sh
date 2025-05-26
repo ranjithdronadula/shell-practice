@@ -1,26 +1,16 @@
 #!/bin/bash
 
-USERID="$(id -u)"
+USERID=$(id -u)
 
 R="/e[31m"
-Y="/e[32m"
-G="/e[33m"
-N="/e[0m"
+G="/e[32m"
+Y="/e[33m"
+N="/e[34m
 
 if [ $USERID -ne 0 ]
-then 
-    echo -e "$R ERROR:: Please run this script with root access $N"
-    exit 1
-else
-    echo "you are running with root acces"
-fi
-
-
-dnf list installed mysql
-if[$? -ne 0]
 then
-    echo "mysql is not installed...instaling it"
-    dnf install mysql -y 
+    echo -e "$R ERROR:: Please run this script with root access $N"
+    exit 1 #give other than 0 upto 127
 else
-    echo  "mysql is already installed..nothing"
-fi        
+    echo "You are running with root access"
+fi
