@@ -8,7 +8,7 @@ N="e/[0m"
 
 if [ $USERID -ne 0 ]
 then 
-    echo -e "ERROR:: plese run this script root acces"
+    echo  "ERROR:: plese run this script root acces"
     exit 1
 else
     echo "you are running with root acces"
