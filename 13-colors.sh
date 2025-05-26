@@ -14,15 +14,15 @@ else
     echo "You are running with root access"
 fi
 
-VALIDATE(){
-    if [ $1 -eq 0 ]
-    then
-        echo -e "Installing $2 is ... $G SUCCESS $N"
-    else
-        echo -e "Installing $2 is ... $R FAILURE $N"
-        exit 1
-    fi
-}
+# VALIDATE(){
+#     if [ $1 -eq 0 ]
+#     then
+#         echo -e "Installing $2 is ... $G SUCCESS $N"
+#     else
+#         echo -e "Installing $2 is ... $R FAILURE $N"
+#         exit 1
+#     fi
+# }
 
 dnf list installed mysql
 if [ $? -ne 0 ]
