@@ -1,5 +1,5 @@
 #!/bin/bash
 
-GREETING="Responded to script1"
+echo "PID of SCRIPT-2: $$"
 
-echo "$GREETING"
+echo "$GREATING"

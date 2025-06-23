@@ -1,6 +1,8 @@
 #!/bin/bash
 
-GREARTING="Calling one script to onther script"
+GREATING="Calling one script to onther script"
+
+echo "PID of SCRIPT-2: $$"
 
 echo -e "$GREARTING"
 
