@@ -2,8 +2,8 @@
 
 GREATING="Calling one script to onther script"
 
-echo "PID of SCRIPT-1: $$"
+echo -e "$GREATING"
 
-echo -e "$GREARTING"
+echo "PID of SCRIPT-1: $$"
 
 ./script2.sh
