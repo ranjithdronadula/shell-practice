@@ -1,11 +1,11 @@
 #!/bin/bash
 
-a=4
+a=0
 
 while [ $a -lt 10 ]
 do
    echo $a
-   a=`expr $a + 2`
+   a=`expr $a + 1`
 done
 
 # while IFS= read -r line
