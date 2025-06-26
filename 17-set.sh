@@ -3,5 +3,5 @@
 set -e
 
 echo "Hi, Good Morning"
-echoooooo "Hello, this will be error"
+#echoooooo "Hello, this will be error"
 echo "Hello, Morning"
