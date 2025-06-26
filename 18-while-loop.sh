@@ -11,4 +11,4 @@
 while IFS= read -r line   
 do
     echo $line
-done < 17-set-sh   # SCRIPT 17-set-sh. entire content will be displyed
+done < 17-set.sh   # SCRIPT 17-set.sh entire content will be displyed
