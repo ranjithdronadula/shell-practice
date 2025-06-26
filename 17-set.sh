@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Hi, Good Morning"
+echooooooooooo "Hi, Good Morning"
 echo "Hi, Good Morning"
 echoooooo "Hello, this will be error"
 echo "Hello, Morning"
